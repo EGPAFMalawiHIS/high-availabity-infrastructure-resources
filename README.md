@@ -30,10 +30,10 @@ apt update
 sudo apt install keepalived
 ```
 
-3; Optionally, you might also need to install PACKAGE
+3; Optionally, you might also need to install libipset13
 
 ```bash
-sudo apt install keepalived
+sudo apt install libipset13
 ```
 
 4; The service looks for configuration in /etc/keepalived/keepalived.conf. Create that file on both of the servers:
